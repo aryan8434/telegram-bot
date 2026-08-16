@@ -5,7 +5,7 @@ const TOKEN =
   process.env.TELEGRAM_BOT_TOKEN ||
   "8673389951:AAGwIrzCdORWHNMZJ1ENvysu08uO4HoMQbw";
 
-// Production-ready bot configuration
+// Production-read
 const bot = new TelegramBot(TOKEN, {
   polling: {
     interval: 300,
